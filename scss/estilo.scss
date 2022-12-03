@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+@import "header.scss";
+@import "slider.scss";
+@import "products.scss";
+@import "testimonials.scss";
+@import "editor.scss";
+@import "tips.scss";
+@import "characteristics.scss";
+@import "footer.scss";
+@import "@media330.scss";
+@import "@media768.scss";
+@import "@media1024.scss";
+@import "main.scss";
+@import "shop.scss";

@@ -1,0 +1,54 @@
+/* ESTILOS DE PRODUCTOS */
+
+.container-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    /* grid-template-areas:
+    ". a a ."
+    ". a a ."; */
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 512px;
+}
+
+.product:before {
+    content: "New";
+    background: #FF4E00;
+    padding: 10px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transform: rotate(-90deg);
+    color: white;
+}
+
+.product__img {
+    width: 200px;
+    height: 120px;
+    /* object-fit: cover; */
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.product__title {
+    text-align: center;
+}
+
+.product__price {
+    color: #FF4E00;
+    font-weight: bold;
+}
+
+.product__icon {
+    display: block;
+    margin-top: 10px;
+}

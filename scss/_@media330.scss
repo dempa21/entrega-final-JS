@@ -1,0 +1,32 @@
+/*Estilos para celu*/
+@media screen and (min-width:330px) {
+    .container-products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        grid-template-areas:
+        ". a ."
+        ". a ."
+        ". a ."
+        ". a ."
+        ;
+    }
+    .container-characteristics {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        /* grid-template-areas:
+        ". a a ."
+        ". a a ."; */
+    }
+    .char{
+        margin-bottom: 40px;
+    }
+    .product {
+        width: 350px;
+        
+    }
+    .product__img{
+        grid-area: a;
+    }
+}

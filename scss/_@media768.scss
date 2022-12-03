@@ -1,0 +1,38 @@
+/*Estilos para tablet*/
+
+@media screen and (min-width:768px) {
+    .container-products {
+        display: grid;
+        /* grid-template-columns: (2, 1fr); */
+        grid-template-rows: 300px 300px 300px 300px;
+        grid-gap: 10px;
+        grid-template-areas:
+        "a a"
+        "a a"
+        "a a"
+        "a a"        
+        ;
+    }
+    .container-characteristics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-areas:
+        ". a a ."
+        ". a a .";
+    }
+    .slider{
+        height: 400px;
+    }
+    .editor__item{
+        height: 250px;
+    }
+    .product {
+        width: 300px;
+        
+    }
+    .product__img{
+        grid-area: a;
+    }
+
+}

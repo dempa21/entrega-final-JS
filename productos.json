@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "pantalon gris",
+        "category":"pantalones", 
+        "categoryTodos" : "todos",
+        "price": 1200,
+        "image": "img/pantalon1.jpg",
+        "description": "pantalon elastizado color gris"
+    },
+    {
+        "id": 2,
+        "title": "pantalon celeste",
+        "category": "pantalones",
+        "categoryTodos" : "todos",
+        "price": 1200,
+        "image": "img/pantalon2.jpg",
+        "description": "pantalon elastizado color celeste"
+    },
+    {
+        "id": 3,
+        "title": "toalla",
+        "category":"toallas y accesorios",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/toalla1.jpg",
+        "description": "toalla colores varios"
+    },
+    {
+        "id": 4,
+        "title": "bolso portable",
+        "category":"toallas y accesorios",
+        "categoryTodos" : "todos",
+        "price": 1000,
+        "image": "img/yoga-bolso-portable.jpg",
+        "description": "bolso portable de tela para yoga mat"
+    },
+    {
+        "id": 5,
+        "title": "yoga mat 1",
+        "category":"yoga mats",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/yoga-mat1.png",
+        "description": "bolso portable de tela para yoga mat"
+    },
+    {
+        "id": 6,
+        "title": "yoga mat 2",
+        "category":"yoga mats",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/yoga-mat2.jpg",
+        "description": "bolso portable de tela para yoga mat"
+    },
+    {
+        "id": 7,
+        "title": "yoga mat 3",
+        "category":"yoga mats",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/yoga-mat3.jpg",
+        "description": "bolso portable de tela para yoga mat"
+    },
+    {
+        "id": 8,
+        "title": "yoga mat 4",
+        "category":"yoga mats",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/yoga-mat4.jpg",
+        "description": "bolso portable de tela para yoga mat"
+    },
+    {
+        "id": 9,
+        "title": "yoga mat 5",
+        "category":"yoga mats",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/yoga-mat5.jpg",
+        "description": "bolso portable de tela para yoga mat"
+    },
+    {
+        "id": 10,
+        "title": "yoga set 2",
+        "category":"yoga mats",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/yoga-set2.jpg",
+        "description": "bolso portable de tela para yoga mat"
+    },
+    {
+        "id": 11,
+        "title": "yoga set",
+        "category":"yoga mats",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/yoga-set3.jpg",
+        "description": "bolso portable de tela para yoga mat"
+    },
+    {
+        "id": 12,
+        "title": "yoga set",
+        "category":"yoga mats",
+        "categoryTodos" : "todos",
+        "price": 800,
+        "image": "img/yoga-set4.jpg",
+        "description": "bolso portable de tela para yoga mat"
+    }
+]

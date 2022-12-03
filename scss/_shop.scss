@@ -1,0 +1,16 @@
+.btn-shop{
+    display: block;
+    border: 1px solid #FF4E00;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    margin: 10px auto;
+    transition: all 0.5s;
+}
+
+.btn-shop:hover{
+    background-color: #FF4E00;
+    color: white;
+}
